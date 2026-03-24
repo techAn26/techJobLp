@@ -2,10 +2,10 @@ import FadeIn from "@/components/FadeIn";
 
 export default function PainPoints() {
   return (
-    <section className="py-20 sm:py-24 px-4 sm:px-6 bg-[var(--navy-light)]">
-      <div className="max-w-xl mx-auto">
+    <section className="pt-20 sm:pt-24 px-4 sm:px-6 bg-[var(--navy-light)]">
+      <div className="max-w-xl lg:max-w-2xl mx-auto text-center">
         <FadeIn>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[var(--slate-white)] leading-tight mb-12 whitespace-pre-line text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[var(--slate-white)] leading-tight mb-12 whitespace-pre-line text-center">
             {"闇雲に動いても、\n結果は出ません。"}
           </h2>
         </FadeIn>

@@ -6,7 +6,7 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex flex-col items-center pt-24 pb-24 px-4 sm:px-6"
     >
-      <div className="w-full max-w-xl md:max-w-2xl flex flex-col items-center">
+      <div className="w-full max-w-xl md:max-w-2xl lg:max-w-3xl flex flex-col items-center text-center">
         <FadeIn delay={0} className="w-full text-center">
           <p className="text-[var(--teal)] text-xs sm:text-sm tracking-normal mb-5">
             あなたの本気のIT就活対策の第一歩に！
@@ -31,7 +31,7 @@ export default function Hero() {
         </FadeIn>
 
         <FadeIn delay={150} className="w-full">
-          <ul className="text-[var(--slate-light)] text-sm sm:text-base leading-loose mb-6 space-y-1 w-full max-w-md">
+          <ul className="text-[var(--slate-light)] text-sm sm:text-base leading-loose mb-6 space-y-1 w-full">
             <li>・人事に評価される制作物はどんなものか？</li>
             <li>・どんなスキルを身につけるべきか？</li>
             <li>・何から始めていくといいのか？</li>
@@ -43,7 +43,7 @@ export default function Hero() {
         </FadeIn>
 
         <FadeIn delay={250} className="w-full">
-          <p className="text-[var(--teal)] text-xs sm:text-sm tracking-normal mb-4 text-center">
+          <p className="text-[var(--teal)] text-lg sm:text-xl tracking-normal mb-4 text-center">
             中身をチラ見せします！
           </p>
 
@@ -53,13 +53,13 @@ export default function Hero() {
             <img
               src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXckW_IRWXhZpiEbSpl_3D8Ijs7UjVQgxZqYLKGiOnR4JelpOF4fNoDk3AioQjWnPOLjp7d6Uvs6umU0dUnhtZcsRNqGfCxmq1nKMmWULcE5j6gmIknTvwAHJnoIAcs-Q0FAGhYmIQ=w320-h235?key=QsqXlHy0vCkuN0hu2TOkhB-L"
               alt="ロードマップ中身プレビュー"
-              className="mx-auto rounded-lg max-w-full"
+              className="mx-auto rounded-lg w-full max-w-sm sm:max-w-md"
               width={320}
               height={235}
             />
           </div>
 
-          <div className="w-full max-w-md bg-[var(--navy-light)] border border-[var(--navy-shadow)] rounded-lg p-5 mb-6">
+          <div className="w-full max-w-md mx-auto bg-[var(--navy-light)] border border-[var(--navy-shadow)] rounded-lg p-5 mb-6">
             <p className="text-[var(--slate-light)] text-sm leading-loose whitespace-pre-line">
               {"「何を作れば評価されるか？」\n「どんなことから学ぶ必要があるか？」\n「実際何からすればいいのか？」"}
             </p>
@@ -83,7 +83,7 @@ export default function Hero() {
         </FadeIn>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
         <span className="text-[var(--slate)] text-xs font-mono">scroll</span>
         <div className="w-px h-8 bg-gradient-to-b from-[var(--slate)] to-transparent" />
       </div>

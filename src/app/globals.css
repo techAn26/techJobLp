@@ -44,10 +44,11 @@ html {
 body {
   background-color: var(--navy);
   color: var(--slate-white);
-  font-family: var(--font-sans), "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-noto-jp), var(--font-sans),
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   overflow-x: hidden;
-  /* 日本語文字間のデフォルト letter-spacing をリセット */
   letter-spacing: 0em;
+  font-feature-settings: "kern" 1, "palt" 1;
 }
 
 /* Scrollbar */

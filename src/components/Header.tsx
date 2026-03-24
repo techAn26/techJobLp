@@ -6,7 +6,6 @@ const navLinks = [
   { label: "ストーリー", href: "#story" },
   { label: "ロードマップ", href: "#solution" },
   { label: "特典", href: "#features" },
-  { label: "受け取る", href: "#cta" },
 ];
 
 export default function Header() {
