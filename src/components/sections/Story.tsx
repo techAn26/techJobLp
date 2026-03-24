@@ -21,7 +21,12 @@ const episodes = [
     image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXenKvGM4phig7Xcyu6T2dVzXQW_cchKk-SreAVg05PP32SD8sSzHs4eKzRDS8_39qmIvfYeADnB3fXdWvo1H_pCC6VmjiJnimdPZYbMahanDI3kwC0Dvg_nFPmlSVllfbLoS7rrmg?key=QsqXlHy0vCkuN0hu2TOkhB-L",
     imageWidth: 231,
     imageHeight: 186,
-    body: "けれど、なんの特徴もない\nただの理系学生だった僕を\n受け入れてくれる企業はなく\n\nESで全落ち、、\n動かないのは違うと思って\n\nせっかく気持ちを入れて申し込んだのに\nそんな結果になった僕は\nガチで焦り始めていました。\n\nあれ？\nもしかして本格的に\n俺、まずい？\n\n企業を選ばなければいける！\nとかそんな風に家族に言われることがあっても\nちゃんと受験したし\n一応プログラミングとかやってきたし\nって自分のプライドがそれを許しませんでした。\n\nそこから就活のために何かやろうと\n僕の熱が入っていったのです\n\nSPIとかTOEICとか基本情報とか\nそんなんじゃない\n\n理系就職のためのガクチカのために\n自分でアプリを開発しようと決意したんです。",
+    body: "けれど、なんの特徴もない\nただの理系学生だった僕を\n受け入れてくれる企業はなく\n\nESで全落ち、、\n動かないのは違うと思って\n\nせっかく気持ちを入れて申し込んだのに\nそんな結果になった僕は\nガチで焦り始めていました"
+  },
+  {
+
+    heading: "あれ？\nもしかして本格的に\n俺、まずい？",
+    body: "\n\n企業を選ばなければいける！\nとかそんな風に家族に言われることがあっても\nちゃんと受験したし\n一応プログラミングとかやってきたし\nって自分のプライドがそれを許しませんでした。\n\nそこから就活のために何かやろうと\n僕の熱が入っていったのです\n\nSPIとかTOEICとか基本情報とか\nそんなんじゃない\n\n理系就職のためのガクチカのために\n自分でアプリを開発しようと決意したんです。",
   },
   {
     heading: "よし！\nプログラミングの勉強\n始めるぞ！",
@@ -46,6 +51,9 @@ const episodes = [
   },
   {
     heading: "突如始まる\nプログラマー研修",
+    image: "https://storage.googleapis.com/zenn-user-upload/33d82e104f22-20240229.png",
+    imageWidth: 339,
+    imageHeight: 236,
     body: "ITもビジネスも、\n右も左も分からない中で\nとにかく不安でしたが\n一生懸命食らいつこうと\n覚悟しました\n\nさっそくプログラミング研修が始まり\nひやひやしながら研修をしてみると\n\n不思議なことに\nすいすいと学習を進められました\n\n内容はJavaScriptを使った実装に\n関する研修で、内容自体は\nProgateでやってたものより\n断然難しかったと思います\n\n研修の最後には\n一人で業務ツールを開発する課題を\n与えられましたが\n\nこれもなんとか\nコーディングしきることができ\n開発することができた、、\n\nなんで独学の時よりうまくいったんだろう、、\nそう思って社長に質問してみました",
   },
   {
@@ -55,6 +63,9 @@ const episodes = [
   },
   {
     heading: "今度こそ、\nこの学びを活かして\nプログラミングを攻略する！",
+    image: "https://img-cdn.jg.jugem.jp/4a4/2064289/20200915_2128472.png",
+    imageWidth: 239,
+    imageHeight: 236,
     body: "そこから\nたくさんの業務を与えられ、\n自分なりに勉強を重ね\nPythonやTypeScriptなどの言語を\n使えるようになりました\n\n最後には、\n会社でちょっとした開発業務を\n一人で任されて\nなんとかやりきることができました\n\n社長からも評価され\n就活のエピソードも手に入り\n自分にも自信が持てるように\nなりました",
   },
   {
@@ -64,6 +75,9 @@ const episodes = [
   {
     heading: "第一志望の\nIT企業に合格！",
     highlight: true,
+    image: "https://maruwanet.co.jp/staffblog/wp-content/uploads/2024/11/pose_happy_businessman_guts.png",
+    imageWidth: 239,
+    imageHeight: 236,
     body: "最終的には\n第一志望の\nIT系の開発会社の\n内定を獲得できました！\n\n就活を始めた頃は\nプログラミングのスキルも知識も\nエピソードも何もなくて\n\n自信のなさが\nESや面接に出て\nインターンシップは\n全落ち、、\n\nけど、\n最後には理想とする\n第一志望のIT企業に\n合格でき、\n\n胸を張って\n友達や家族に\n結果を報告できました！",
   },
 ];
@@ -77,7 +91,7 @@ export default function Story() {
             Story
           </p>
           <h2 className="text-2xl sm:text-3xl font-bold text-[var(--slate-white)] text-center mb-14">
-            私自身の話をさせてください
+            私のIT就活のこと
           </h2>
         </FadeIn>
 
