@@ -15,8 +15,8 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio and landing page",
+  title: "IT就活のTETSU",
+  description: "IT就活のTETSU | 優秀制作ロードマップをお渡しします",
 };
 
 export default function RootLayout({
